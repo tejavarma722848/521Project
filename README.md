@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to perform sentiment analysis on Twitter data using various deep learning models. The dataset used for this analysis is located at `/Users/teja/Downloads/Twitter_Data.csv`.
+This project aims to perform sentiment analysis on Twitter data using various deep learning models. The dataset used for this analysis is Twitter_Data.
 
 ## Data Preprocessing
 
