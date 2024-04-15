@@ -41,17 +41,21 @@ This project aims to perform sentiment analysis on Twitter data using various de
 - The model architecture includes an Embedding layer, CuDNNLSTM layer, Conv1D layer, MaxPooling1D layer, Dropout layer, Flatten layer, and a Dense output layer with softmax activation.
 - The model is compiled with categorical cross-entropy loss and Adam optimizer.
 
+### ELMo Embedding Model
+An Elmo embedding model is built using TensorFlow and Keras.
+The model architecture includes an ElmoEmbeddingLayer, a Dense layer, and a binary output layer with sigmoid activation.
+The model is trained with binary cross-entropy loss and Adam optimizer.
+
+### BERT Model
+A BERT (Bidirectional Encoder Representations from Transformers) model is implemented using the Transformers library.
+The model architecture includes a pre-trained BERT layer, followed by additional layers for classification.
+The model is fine-tuned on the Twitter dataset using binary cross-entropy loss and AdamW optimizer.
+
 ## Model Training and Evaluation
 
 - The models are trained on the balanced dataset with train-test split and cross-validation.
 - Metrics such as accuracy, precision, recall, and F1 score are computed for model evaluation.
 - TensorBoard is used for monitoring training progress.
-
-### Elmo Embedding Model
-
-- An Elmo embedding model is built using TensorFlow and Keras.
-- The model architecture includes an ElmoEmbeddingLayer, a Dense layer, and a binary output layer with sigmoid activation.
-- The model is trained with binary cross-entropy loss and Adam optimizer.
 
 ## Model Evaluation
 
