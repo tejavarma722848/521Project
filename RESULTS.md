@@ -18,6 +18,8 @@ Due to the large size of the dataset used in this project, we have decided not t
 
 ## Summary
 
+The performance measures of the models across dataset size of 20k:
+
 | Model     | Accuracy | Precision | Recall | F1 Score |
 |-----------|----------|-----------|--------|----------|
 | CNN       | 0.820    | 0.804     | 0.850  | 0.826    |
@@ -27,8 +29,9 @@ Due to the large size of the dataset used in this project, we have decided not t
 | ELMo      | 0.767    | 0.727     | 0.854  | 0.786    |
 | BERT      | 0.919    | 0.916     | 0.924  | 0.920    |
 
-The performance measures of the models across dataset size of 20k:
 
+
+The performance measures of the models across dataset size of 100k:
 
 | Model     | Accuracy | Precision | Recall | F1 Measure |
 |-----------|----------|-----------|--------|------------|
@@ -39,19 +42,7 @@ The performance measures of the models across dataset size of 20k:
 | ELMo      | 0.801684 | 0.804241  | 0.792605| 0.798381   |
 | BERT      | 0.948147 | 0.9456478 | 0.951034| 0.9483334  |
 
-The performance measures of the models across dataset size of 100k:
 
-
-| Model     | Accuracy | Precision | Recall | F1 Measure |
-|-----------|----------|-----------|--------|------------|
-| CNN       | 0.839629 | 0.870428  | 0.798466 | 0.832895   |
-| LSTM      | 0.85167  | 0.866471  | 0.844841 | 0.855519   |
-| CNN-LSTM  | 0.847022 | 0.830932  | 0.871751 | 0.850852   |
-| LSTM-CNN  | 0.846449 | 0.850834  | 0.840605 | 0.845689   |
-| ELMo      | 0.826781 | 0.850873  | 0.842645 | 0.808321   |
-| BERT      | 0.97769326 | 0.9775955 | 0.97779113 | 0.97769326 |
-
-The performance measures of the models across dataset size of 200k:
 
 
 Discussion
