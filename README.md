@@ -65,7 +65,7 @@ The model is fine-tuned on the Twitter dataset using binary cross-entropy loss a
 
 ## Requirements
 
-- Python 3.5
+- Python 3.5.10
 - TensorFlow
 - Keras
 - nltk
